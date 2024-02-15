@@ -1,11 +1,18 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        IBM: ['IBM Plex Mono', 'monospace'],
+        Ramaraja: ['Ramaraja', 'serif'],
+        Poppins: ['Poppins', 'sans-serif'],
+        Pacifico: ['Pacifico', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }
