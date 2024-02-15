@@ -5,14 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        IBM: ['IBM Plex Mono', 'monospace'],
-        Ramaraja: ['Ramaraja', 'serif'],
-        Poppins: ['Poppins', 'sans-serif'],
-        Pacifico: [ 'Pacifico', 'cursive'],
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
